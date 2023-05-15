@@ -3,13 +3,14 @@
 class Teacher
 {
 public:
-
-privat:
 	string name;
 	string surname;
 	int age;
 	int power;
-	Publik:
+
+privat:
+
+	Public:
 	Teacher();
 	Teacher(string n, string sname, int a, float mark);
 	Teacher(string n, string sname);

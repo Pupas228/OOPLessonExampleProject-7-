@@ -8,6 +8,7 @@ privat:
 	string surname;
 	int age;
 	int power;
+
 public:
 	Doctor();
 	Doctor(string n, string sname, int a, float mark);
@@ -22,8 +23,9 @@ public:
 	int get_age();
 	void set_age(int a);
 	float get_avg_mark();
-	void set_avg_mark(float mark);
-
+	/*void set_avg_mark(float mark);*/
+	float get_expireins();
+	void get_expireins(float get_expireins);
 	/*void init(string n, string sname, int a, int power);
 	void init_default();*/
 	string convert_to_string();
